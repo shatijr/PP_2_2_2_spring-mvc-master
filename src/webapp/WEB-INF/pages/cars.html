@@ -5,11 +5,11 @@
     <title>Cars</title>
 </head>
 <body>
-<table>
+<table border="1">
     <tr>
-        <th>Model</th>
-        <th>Year</th>
-        <th>Price</th>
+        <th> Model</th>
+        <th> Year</th>
+        <th> Price</th>
     </tr>
     <tr th:each="car : ${cars}">
         <td th:utext="${car.getModel()}"></td>
