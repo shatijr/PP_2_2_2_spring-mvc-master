@@ -1,6 +1,4 @@
-package model;
-
-import java.util.Objects;
+package web.model;
 
 public class Car {
     String model;
@@ -40,7 +38,7 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "model='" + model + '\'' +
+                "web.model='" + model + '\'' +
                 ", price='" + price + '\'' +
                 ", dataRelease=" + dataRelease +
                 '}';
